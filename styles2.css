@@ -1,0 +1,42 @@
+body {background-color: rgb(0, 255, 81);
+}
+
+img {
+    height: 80px;
+    padding-top: 30px;
+  }
+  
+  .img2 {
+      float: right;
+      padding-top: 30px;
+  }
+  
+fieldset {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+fieldset input {
+    font-size: 20px;
+}
+
+legend {
+    font-size: 35px;
+    color: black;
+    font-family: cursive;
+
+}
+
+.button {
+    background-color: red;
+    color: rgb(8, 104, 38);
+    border-radius: 40px;
+    width: 200px;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    font-weight: 900;
+    }
