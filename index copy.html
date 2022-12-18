@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <form action="server.php">
+      <fieldset>
+        <legend>Contact:</legend>
+        Name: <br />
+        <input type="text" name="name" required /><br />
+        Email: <br />
+        <input type="text" name="email" required /><br />
+        Message: <br />
+        <input type="text" name="message" required /><br /><br />
+        <label for="prioritySelect">Priority:</label>
+        <select name="priority" id="prioritySelect">
+          <option value="high">High</option>
+          <option value="normal" selected>Normal</option>
+          <option value="low">Low</option></select
+        ><br /><br />
+
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
